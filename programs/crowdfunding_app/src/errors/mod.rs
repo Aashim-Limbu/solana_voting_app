@@ -11,4 +11,14 @@ pub enum ErrorCode {
     ImageURLTooLong,
     #[msg("Invalid goal amount. Goal must be greater than zero.")]
     InvalidGoalAmount,
+    #[msg("Unauhorized Access")]
+    UnauthorizedAccess,
+    #[msg("Campaign not Found")]
+    CampaignNotFound,
+    #[msg("Campaign Inactive")]
+    CampaignInactive,
+    #[msg("Invalid Donation Amount")]
+    InvalidDonationAmount,
+    #[msg("Campaign Goal Acheived")]
+    CampaignGoalAchieved,
 }
